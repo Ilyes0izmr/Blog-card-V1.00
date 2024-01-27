@@ -1,0 +1,149 @@
+
+/*defin colors*/
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White:  hsl(0, 0%, 100%);
+    --Grey:   hsl(0, 0%, 50%);
+    --Black:  hsl(0, 0%, 7%);
+}
+
+*{
+    padding : 0;
+    margin : 0; 
+    box-sizing: border-box;
+  }
+img {
+    max-width: 100% ;    
+}  
+
+body {
+    background-color: var(--Yellow);
+    font-family: 'Figtree', sans-serif;
+    display: flex ; 
+    align-items: center ;
+    justify-content: center ;
+    min-height : 100svh ;
+   
+    margin-top: 1rem ; 
+    flex-direction: column ; 
+    padding: 1rem ;
+    
+    
+}  
+
+.container {
+   background-color: var(--White);
+   border-radius: 1.2rem;
+   box-shadow: 0.5rem 0.5rem var(--Black);
+   padding: 0.95rem; 
+   margin-bottom: 1rem;
+   border : 1px solid var(--Black);
+   width : 100px;
+   
+}
+
+.fig1 img{
+   border-radius: 1.2rem;
+   display: block;
+   width: 96%;
+   margin-bottom : 2rem;
+   margin-top : 0.5rem;
+   margin-left: 0.6rem;
+}
+
+.title { 
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: -0.03rem;
+    margin : 0.4rem;
+    margin-top : 1rem;
+    background-color: var(--Yellow);
+    border-radius: 0.4rem;
+    justify-content: space-between ;
+    padding : 0.4rem;
+    padding-inline: 1rem;
+    margin-left: 0.6rem;
+}
+
+.time {
+     
+     margin-left: 0.4rem;
+     font-size : 0.9rem ;
+     letter-spacing: -0.02rem;
+     word-spacing: 0.05rem;
+     display : block ;
+     margin-top: 24px;
+     margin-left: 0.6rem;
+     -webkit-text-stroke: 0.002rem black; /*how to add stroke */
+}
+
+h1 {
+   font-size: 1.5rem;
+   font-weight: 800;
+   margin-bottom: 1rem;
+   margin-top : 1rem;
+   letter-spacing: 0.01rem;
+   word-spacing: -0.05rem;
+   margin-left: 0.6rem;
+   cursor: url('{}'), auto;
+   transition: 0.3s;
+   /*custome cursor*/
+   cursor: url('assets/images/icons8-cursor-30.png'),auto;
+   
+   
+   
+}
+
+h1:hover {
+  color: var(--Yellow);
+  
+
+
+}
+
+p {
+    color: var(--Grey);
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    margin-left: 0.6rem;
+}
+
+.person img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.6rem;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+}
+
+.person h2{
+   font-size: 0.8rem;
+   font-weight: 800;
+   margin-left: 0.7rem;
+   letter-spacing: -0.04rem;
+} 
+
+
+.attribution { 
+    
+    font-size: 0.75rem; 
+    text-align: center; 
+    }
+
+.attribution a { 
+     color: hsl(228, 45%, 44%); 
+    }
+
+
+@media (min-width:390px){
+    .container {
+      width : 390px ; 
+    }
+  }
+ 
+  
