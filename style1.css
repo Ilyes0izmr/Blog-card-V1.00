@@ -46,7 +46,7 @@ body {
    border-radius: 1.2rem;
    display: block;
    width: 96%;
-   margin-bottom : 2rem;
+   margin-bottom : 1.5rem;
    margin-top : 0.5rem;
    margin-left: 0.6rem;
 }
@@ -79,7 +79,7 @@ body {
 }
 
 h1 {
-   font-size: 1.5rem;
+   font-size: 1.3rem;
    font-weight: 800;
    margin-bottom: 1rem;
    margin-top : 1rem;
@@ -97,16 +97,13 @@ h1 {
 
 h1:hover {
   color: var(--Yellow);
-  
-
-
 }
 
 p {
     color: var(--Grey);
     line-height: 1.5rem;
-    margin-bottom: 2rem;
-    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
     margin-left: 0.6rem;
 }
 
